@@ -1,0 +1,51 @@
+html{
+background: linear-gradient(90deg, rgb(246, 245, 247) 0%, rgb(236, 210, 228) 100%)
+}
+header{
+    background-color: rgb(149, 147, 233);
+    text-align: center;
+}
+p{
+    color:#008080		;
+}
+
+h1{
+    color: blue;
+    text-align: center;
+    font-size: 50px;
+}
+
+h2{
+    color: royalblue
+}
+
+ol{
+    color: #008080;
+}
+
+h3{
+    color: royalblue;
+    text-align: center;
+}
+ul{
+    color: #008080;
+}
+.gitimg{
+    width: 500px;
+    text-align: center;
+}
+nav{
+    text-align: left;
+}
+.Githubimgs{
+    width: 300px;
+    text-align: center;
+}
+.Imgseta{
+    width: 150px;
+    text-align: right;
+}
+.duvidaimg{
+    width: 250px;
+    text-align: center;
+}

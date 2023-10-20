@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylegit.css">
+    <title>Manual Git</title>
+</head>
+<body>
+    <p>Aprenda a dar os Primeiros Passos no Git:</p>
+    <input type="time">
+
+    <header>
+    <h1>Conceito de Git</h1>
+    </header>
+    
+    
+    <nav>
+        <ul>
+            <li><a href="#ControlGit">O que é Controle de Versão</a></li>
+            <li><a href="#RepGit">O que é um Repositório no Git?</a></li>
+            <li><a href="#BasicGit">Comando Básicos do Git</a></li>
+            <li><a href="#LinkGitDownload">Link para baixar o Git e link para entrar no GitHub</a></li>
+            <li><a href="#InterLink">Achou Facil a interpretação do Manual do Git</a></li>
+        </ul>
+    </nav>
+    
+    <h3>O que é o Git</h3>
+    
+    <p>
+        O Git é um projeto de código aberto maduro e com manutenção ativa desenvolvido em 2005 por Linus Torvalds, o famoso criador do kernel do sistema operacional Linux. Um número impressionante de projetos de software depende do Git para controle de versão, incluindo projetos comerciais e de código-fonte aberto.
+    </p>
+    <img src="../Img/pexels-realtoughcandycom-11035539.jpg" class="gitimg">
+    <br>
+
+
+    <h2>O que é Controle de Versão?</h2>
+    <a id="ControlGit"></a>
+    
+    <p>
+        É o acompanhamento e gerenciamento das mudanças feitas no código ao longo do tempo, tornando-as rastreáveis e gerenciáveis. É essencial fazer o controle da versão para evitar e proteger contra possíveis erros e bugs futuros no código.
+    </p>
+
+    <h2>Formas de resguardar contra bugs</h2>
+    <ol> <u>
+        <li>Controle de Versão: Permite rastrear todas as alterações feitas no código</li>
+        <li>Registros Temporais: Marcam o momento em que as mudanças foram feitas, ajudando na identificação de problemas</li>
+        <li>Gerenciamento Administrativo: Define responsabilidades e processos para alterações no código.</li>
+        <li>Comentários (Commits): Descrevem as alterações feitas em detalhes, facilitando a compreensão.</li>
+        <li>Revertendo para Estados Anteriores: Possibilita retornar o código a versões anteriores para corrigir problemas.</li>
+    </ol> </u>
+    
+    <h3>Lembrando que:</h3>
+    <p>
+        Git-Local <br>
+        GitHub-Remoto
+    </p>
+
+    <h2>O que é um Repositório no Git?</h2>
+    <a id="RepGit"></a>
+    <p>
+
+        É um diretório onde os arquivos do seu projeto ficam armazenados. Ele pode ficar em um depósito do GitHub ou em seu computador. Você pode armazenar códigos, imagens, áudios, ou qualquer outra coisa relacionada ao projeto no diretório.
+    </p>
+
+    <h2>Comando Básicos do Git</h2>
+    <a id="BasicGit"></a>
+    <img src="../Img/arrow-158359_1280.png" class="Imgseta">
+    
+    <p>
+        A sensibilidade a maiúsculas e minúsculas é geralmente importante.
+No Git Bash, os comandos são case-sensitive, o que significa que "ls" e "LS" são tratados como comandos diferentes.<br>
+    </p>
+    <h3>Portanto:</h3> 
+        
+        
+        <p>ls listará arquivos e diretórios no diretório atual em letras minúsculas</p>
+        <p>LS não será reconhecido como um comando válido e resultará em um erro em alguns casos de uso.</p>
+        
+
+        <h4>Control + L</h4>
+
+        
+        <p> a Tela do usuário, usado no Git Bash e não no git CMD</p>
+        
+
+        <h4>Comando CD</h4>
+
+        
+        <p>Comando para mudar o diretório de um local de origem para outro local desejado. Para acessar subdiretórios você pode usar “/”. Os susbdiretórios são listados em ordem crescente.</p>
+        
+
+        <h4>Git Init</h4>
+         
+        
+        <p> comando git init é usado para criar um novo repositório Git em um diretório vazio ou em um diretório existente, tornando-o um repositório Git.Este comando é usado uma única vez para inicializar um novo projeto ou para converter um diretório existente em um repositório Git.</p>
+
+        
+
+         <h4>Git Branch</h4>
+
+        
+        <p> comando git branch é usado para listar, criar, renomear ou excluir ramificações (branches) em um repositório Git.Sem argumentos, ele lista todas as ramificações existentes no repositório. Com argumentos, ele permite realizar várias operações relacionadas a ramificações.</p>
+        
+
+        <h4>O comando git config --global user.name mateus.rocha</h4>
+        
+        
+          <p>É usado para configurar o nome de usuário global do Git em um sistema. Essa configuração é importante porque o Git registra informações sobre o autor de cada commit que é feito em um repositório. Portanto, configurar o nome de usuário é uma maneira de identificar quem fez as alterações em um repositório.</p>
+        
+
+        <h4>O comando git config --global user.email mateusrochamr@outlook.com</h4>
+        
+        
+        <p>É usado para configurar o endereço de e-mail global do Git em um sistema. Assim como o nome de usuário, configurar o endereço de e-mail é importante porque o Git usa essa informação para registrar o autor de cada commit em um repositório. Aqui está a explicação detalhada deste comando:</p>
+        
+
+        <h4>Setinha para cima ou para baixo</h4>
+
+        
+        <p>Permite navegar pelos comandos digitados anteriormente e posteriormente, facilitando a repetição ou modificação de comandos anteriores.</p>
+        
+
+        <h4>Barra Invertida /</h4>
+
+       
+       <p>É uma forma de acessar pastas com nome composto ou diretórios que contêm espaços em seus nomes</p>
+       
+
+        <h4>Aspas Duplas " no início e no final</h4>
+
+        
+        <p>É uma forma alternativa de acessar uma pasta ou arquivo que tenha nome composto ou que contenha espaços em seu nome.</p>
+        
+
+        <h4>Mkdir</h4>
+
+        
+        <p>Para criar pastas em um diretorio especifico ou local.</p>
+        
+
+        <h4>Pwd</h4>
+        
+        
+        <p>Comando para confirmação da localização do usuário.</p>
+        
+
+        <h4>git push --force origin master (force)</h4>
+        
+        
+        <p>Cuidado,Pois pode apagar a versão do git.</p>
+        
+
+        <h4>Git Push</h4>
+        
+        <p>Salva e envia o repositório para o remoto(GitHub)</p>
+        
+
+         <h4>Git Commit -m</h4>
+
+         
+         <p>Altera a mensagem ou adiciona uma Mensagem para a versão</p>
+         
+
+         <h4>Git remote add origin</h4>
+            
+            <p>Adicionar um vinculo ao repositorio remoto (nome para chamar o repositorio)</p>
+            
+
+        <h4>Git config --global init.defaultbranch - "main ou master" </h4>
+            
+            <p>Para escolher entre main ou master quando iniciar futuro repositorio.</p>
+            
+        
+            <h4>Git Status</h4>
+            
+            <p> que quiser saber sobre qualquer alteração no repositorio.</p>
+            
+            
+            <h4>Git add "nome do arquivo"txt</h4>
+            
+                <p>Para o git enxergar as mudanças no arquivo.</p>
+            
+            
+            <h4>Git Shortlog</h4>
+            
+                <p>Para saber o que foi feito no código</p>
+            
+            
+            <h4>Git Commit -a -m ""</h4>
+            
+                <p>Fazendo o add e o commit junto em um comando só.</p>
+            
+            
+            <h4>Git Reset HEAD~1</h4>
+            
+            <p>Para voltar no commit anterior.Conforme você aumentar o numero do head ele irá voltar nos commit anteriores.</p>
+            
+            
+            <h4>Git reset HEAD~1 --soft</h4>
+            
+            <p>Ele volta para o commit antigo,e é necessário commitar novamente.</p>
+            
+
+            <h4>Git Reset HEAD~1 --mixed</h4>
+            
+            <p>Semelhante ao Git reset soft, executar uma redefinição do Git com a opção --mixed desfará todas as alterações entre HEAD e o commit especificado, mas preservará suas alterações no diretório de trabalho, como alterações não preparadas.</p>
+            
+
+            <h4>Git Reset HEAD~1 --hard</h4>
+            
+            <p>Cuidado!!Ele apaga o último arquivo adicionado ao repósitorio local.</p>
+            
+
+            <h2>Tabela Git</h2>
+
+            <table border="2">
+               <tr>
+                   <th>Left-alligned</th>
+                   <th>Center-aligned</th>
+                   <th>Right-aligned</th>
+               </tr>
+               
+                <tr>
+                
+                <td>git status</td>
+                <td>git status</td>
+                <td>git status</td>
+                </tr>
+                
+                <tr>
+                    <td>git diff</td>
+                    <td>git diff</td>
+                    <td>git diff</td>
+                </tr>
+            </table>
+
+            <h2>Link para baixar o Git e link para entrar no GitHub</h2>
+            <a id="LinkGitDownload"></a>
+            
+           <section>
+                <ul>
+                    <li><a href="https://git-scm.com/"
+                    target="git">Git</a> </li>
+                
+                    <li><a href="https://github.com/"
+                        target="github">GitHub</a> </li>
+                </ul>
+            </section>
+            <img src="../Img/github-394322_1280.png" class="Githubimgs">
+            
+            <h2>Achou Facil a interpretação do Manual do Git?</h2>
+            <a id="InterLink"></a>
+            <img src="../Img/man-5723449_1280.jpg" class="duvidaimg">
+
+            <nav id="GitForms">
+                <form action="">
+        
+        <label for="sim">Sim</label><br>
+        <input type="radio" id="sim" name="Manual Git" 
+        value="sim"><br>
+
+        <label for="nao">Não</label><br>
+        <input type="radio" id="nao" name="Manual Git" 
+        value="nao"><br>
+                    
+                </form>
+                
+
+
+            </nav>
+
+            
+
+
+
+
+
+
+              
+        
+
+         
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
